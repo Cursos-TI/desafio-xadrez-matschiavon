@@ -50,5 +50,24 @@ int main() {
     } while (k <= 8);
     printf("\n");
 
+    // Movimento do Cavalo (FOR E WHILE)
+    // O Cavalo deve se mover em "L" duas casas para baixo e uma para a esquerda
+    // Simularemos usando dois loops aninhados (for e while)
+
+    int l = 1; // Inicializa o contador
+
+    printf("Movimento do Cavalo (2 casas para baixo e 1 para a esquerda):\n");
+
+
+    while (l--)
+    {
+        for (int l = 0; l < 2; l++)
+        {
+            printf("Baixo\n");
+        }
+        printf("Esquerda\n");
+    }
+
+
     return 0;
 }
